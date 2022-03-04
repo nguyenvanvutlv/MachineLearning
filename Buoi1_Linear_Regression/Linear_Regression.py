@@ -46,6 +46,5 @@ plt.plot(A,F(A))
 plt.title("$F(x) = x^2 - 5 \cdot sin(x)$")
 plt.scatter(X,F(X),color='red')
 plt.annotate("Global_Minimun", xy = (X,F(X)) , xytext = (0,3),arrowprops=dict(facecolor='red', shrink=1))
-plt.show()
 plt.savefig("output.png")
 
